@@ -1,0 +1,11 @@
+# Redirect all requests to index.html for SPA routing
+/* /index.html 200
+
+# Redirect old URLs to new ones (if needed)
+# /old-path /new-path 301
+
+# Handle 404 errors
+# /404 /index.html 404
+
+# Force HTTPS
+# http://* https://* 301 
